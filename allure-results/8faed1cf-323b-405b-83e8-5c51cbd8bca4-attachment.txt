@@ -1,0 +1,48 @@
+error during navigation page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "load"
+
+    at C:\Users\2236684\OneDrive - Cognizant\Documents\PlayWright\tests\assignment\assignments_playwright.spec.ts:210:32 {
+  name: 'Error',
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\2236684\\OneDrive - Cognizant\\Documents\\PlayWright\\tests\\assignment\\assignments_playwright.spec.ts',
+      line: 210,
+      column: 32
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/web/index.php/auth/login"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@27',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@27',
+      _title: 'Navigate to "/web/index.php/auth/login"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1763537082652,
+    error: {
+      message: 'Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "load"\x1B[22m\n',
+      stack: 'Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "load"\x1B[22m\n' +
+        '\n' +
+        '    at C:\\Users\\2236684\\OneDrive - Cognizant\\Documents\\PlayWright\\tests\\assignment\\assignments_playwright.spec.ts:210:32',
+      cause: undefined
+    }
+  }
+}

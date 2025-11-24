@@ -1,0 +1,18 @@
+{
+
+    "Name" : "NewUser1719",
+    "EmailAddress" : "NewUser1719@email.com",
+    "Password" : "test@1234$",
+    "firstName" : "NewUser",
+    "lastName" : "1719",
+    "address1" : "hyderbad",
+    "state" : "telangana",
+    "city" : "hyderbad",
+    "zipcode" : "123456",
+    "mobileNumber" : "1234567890",
+    "nameoncard" : "NewUser1719",
+    "cardNumber" : "41110000000000",
+    "cvv" : "000",
+    "expiryMonth" : "5",
+    "expiryYear" : "2032"
+}
